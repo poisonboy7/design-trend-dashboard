@@ -408,7 +408,7 @@ uploaded_file = st.sidebar.file_uploader(
     type=["xlsx"]
 )
 
-DEFAULT_FILE = "01_판다스실습_정형데이터_차승근.xlsx"
+DEFAULT_FILE = "design_data.xlsx"
 
 active_file = (
     uploaded_file
