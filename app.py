@@ -526,7 +526,7 @@ def kpi_card(title, value, emoji, color):
     font-size:44px;
     font-weight:800;
     color:{color};
-    text-shadow:0 0 4px {color};
+    text-shadow:0 0 2px {color};
     line-height:1;
     ">
     {value}
