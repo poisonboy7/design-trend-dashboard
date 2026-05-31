@@ -1,3 +1,7 @@
+## 대시보드 화면
+
+![Dashboard](dashboard.png)
+
 # Design Trend Dashboard
 
 디자인 트렌드 데이터를 분석하는 Streamlit 기반 대시보드입니다.
