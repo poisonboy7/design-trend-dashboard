@@ -126,7 +126,7 @@ if not filtered_df.empty:
 
     # 가독성을 높이기 위한 유틸리티 맵핑 컴파일
     display_df['service_name'] = display_df['service_name'].apply(lambda x: make_google_link(x))
-    display_df['font_family'] = display_df['font_family'].apply(lambda x: make_google_link(x, suffix="font"))
+    display_df['font_family'] = display_df['font_family'].apply(lambda x: make_google_link(x))
     display_df['header_area_color'] = display_df['header_area_color'].apply(make_color_chip)
     display_df['main_visual_color'] = display_df['main_visual_color'].apply(make_color_chip)
 
